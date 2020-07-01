@@ -1,4 +1,4 @@
-package com.imran.helloboot;
+package com.shoppingcart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

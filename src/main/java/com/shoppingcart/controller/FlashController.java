@@ -1,4 +1,4 @@
-package com.imran.helloboot.controller;
+package com.shoppingcart.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

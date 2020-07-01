@@ -4,16 +4,16 @@ metadata:
   name: imran-service-deployment
   namespace: shop
   labels:
-    app: imran-helloworld
+    app: shoppingcart
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: imran-helloworld
+      app: shoppingcart
   template:
     metadata:
       labels:
-        app: imran-helloworld
+        app: shoppingcart
     spec:
       containers:
       - name: imran-helloworld
