@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: imran-service-deployment
+  name: shoppingcart-deployment
   namespace: shop
   labels:
     app: shoppingcart
@@ -16,7 +16,7 @@ spec:
         app: shoppingcart
     spec:
       containers:
-      - name: imran-helloworld
+      - name: imran-shoppingcart
         image: siddhi/spring-boot:imran
         ports:
         - containerPort: 8080
